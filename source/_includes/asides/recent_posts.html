@@ -1,0 +1,16 @@
+<div class="section">
+  <div class="section-content">
+    <div class="section-title">
+      <div class="section-title-background"> </div>
+      <h3 class="section-title-inner">Recent Posts</h3>
+    </div>
+  <ul id="recent_posts">
+    {% for post in site.posts limit: site.recent_posts %}
+      <li class="links">
+        <a href="{{ root_url }}{{ post.url }}" title="{{post.title}}" >{{ post.title | truncate: 33 }}</a>
+      </li>
+    {% endfor %}
+  </ul>
+ 
+  </div>
+</div>
