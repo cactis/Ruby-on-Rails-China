@@ -2,9 +2,8 @@
 layout: default
 single: true
 ---
-
 <div>
-<article class="hentry" role="article">
+<div class="entry article" >
   {% include article.html %}
   <footer>
     <p class="meta">
@@ -24,7 +23,7 @@ single: true
       {% endif %}
     </p>
   </footer>
-</article>
+</div>
 {% if site.disqus_short_name and page.comments == true %}
   <section>
     <h1>Comments</h1>
