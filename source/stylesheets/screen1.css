@@ -3,8 +3,37 @@
 .content {
     padding: 35px 20px 0 5px; 
     background: url("../images/divider.png") no-repeat scroll 40% top transparent;
-    text-indent:1em;
 }
+/**
+ * Highlight
+*/
+pre[class^='sh_'], .sh_sourcecode {
+  overflow-x: auto;
+  margin-top: 1em;
+  padding: 8px 12px;
+  border: 1px solid #e8e8e8;
+  border-left-width: 6px;
+  border-radius: 0 4px 4px 0;
+  background: #f8f8f8;
+  text-shadow: 0 -1px rgba(0, 0, 0, 0.1); }
+
+.sh_sourcecode .sh_type, .sh_sourcecode .sh_keyword, .sh_sourcecode .sh_selector, .sh_sourcecode .sh_preproc {
+  color: #e8bf69; }
+.sh_sourcecode .sh_string, .sh_sourcecode .sh_regexp, .sh_sourcecode .sh_number, .sh_sourcecode .sh_specialchar {
+  color: #a5c160; }
+.sh_sourcecode .sh_property, .sh_sourcecode .sh_value {
+  color: #6e9cbd; }
+.sh_sourcecode .sh_function {
+  color: #da4938; }
+.sh_sourcecode .sh_comment {
+  color: #bc9357;
+  font-style: italic;
+  text-shadow: none; }
+
+.sh_commands code::before {
+  margin-right: 10px;
+  content: '$'; }
+
 
 .article {
   width:580px;
@@ -27,11 +56,18 @@
     position: absolute;
     top: 438px;
     width: 300px;}
+#related-post {
+ left:50%;
+ margin-left:176px;
+ position:absolute;
+ top: 238px;
+ width:300px;
+
+}
 .footer {
   margin-top: 20px;
   clear: both; 
 }
-ul {list-style-type:none;}
 .alignleft { float: left; margin: 5px 20px 10px 0; }
 .alignright { float: right; margin: 5px 0 10px 20px; }
 .aligncenter { margin: 5px auto 10px auto; display: block; clear: both; }
@@ -422,4 +458,10 @@ margin-bottom: 0;
 list-style-image: url("../images/list-style.gif");
 list-style-type: none;
 text-indent: 0px;
+}
+#related-post ul {
+list-style-image: url("../images/list-style.gif");
+list-style-type: none;
+text-indent: 0px;
+margin-left: 10px;
 }

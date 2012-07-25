@@ -32,6 +32,24 @@ single: true
 {% endif %}
 </div>
 {% unless page.sidebar == false %}
+<section class="contribute" id="related-post">
+  <div class="section-content">
+    <div class="section-title">
+      <div class="section-title-background"> </div>
+      <h3 class="section-title-inner"> Related Posts</h3>
+    </div>
+      <div>
+    <ul class="posts">
+        {% for post in site.related_posts limit:5 %}
+        <li class="related">
+            <a href="{{ root_url }}{{ post.url }}">{{ post.title }}</a>
+        </li>
+        {% endfor %}
+    </ul>
+      </div>
+  </div>
+</section>
+
 <aside class="sidebar">
   {% if site.post_asides.size %}
     {% include_array post_asides %}

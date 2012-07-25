@@ -1,15 +1,15 @@
 {% if site.delicious_user %}
-<div class="section" id="delicious">
+<div class="section">
   <div class="section-content">
     <div class="section-title">
       <div class="section-title-background"> </div>
-      <h3 class="section-title-inner"> aDelicious 书签</h3>
+      <h3 class="section-title-inner"> Delicious 书签</h3>
     </div>
-    <ul>
-      
+      <div id="delicious">
+        
+    <script type="text/javascript" src="http://feeds.delicious.com/v2/json/{{ site.delicious_user }}?count={{ site.delicious_count }}&amp;sort=date&amp;callback=renderDeliciousLinks"></script> 
+      </div>
     <p><a href="http://delicious.com/{{ site.delicious_user }}">查看全部书签 &raquo;</a></p>
-
-  </ul> 
   </div>
 </div>
 {% endif %}
