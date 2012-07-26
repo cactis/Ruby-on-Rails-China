@@ -39,12 +39,12 @@ titlecase: true       # Converts page and post titles to titlecase
 lsi: true
 # list each of the sidebar modules you want to include, in the order you want them to appear.
 # To add custom asides, create files in /source/_includes/custom/asides/ and add them to the list like 'custom/asides/custom_aside_name.html'
-#default_asides: [custom/asides/about.html,custom/asides/follow.html,custom/asides/jobs.html,asides/recent_posts.html,asides/delicious.html,custom/asides/books.html,custom/asides/links.html]
+# default_asides: [custom/asides/about.html,custom/asides/follow.html,custom/asides/jobs.html,asides/recent_posts.html,asides/delicious.html]
 
-# Each layout uses the default asides, but they can have their own asides instead. Simply uncomment the lines below
+# Each layout uses the default asides, but they can have thei Casterr own asides instead. Simply uncomment the lines below
 # and add an array with the asides you want to use.
 blog_index_asides: [custom/asides/about.html,custom/asides/follow.html,custom/asides/jobs.html,asides/recent_posts.html,asides/delicious.html]
-post_asides: [custom/asides/sharing.html,custom/asides/jobs.html,asides/recent_posts.html,asides/delicious.html]
+post_asides: [custom/asides/recent_comment.html,custom/asides/jobs.html,asides/recent_posts.html,asides/delicious.html]
 # page_asides:
 
 # ----------------------- #
@@ -82,9 +82,8 @@ pinboard_count: 3
 delicious_user: railschina
 delicious_count: 10
 
-# Disqus Comments
-disqus_short_name: rubyonrailschina
-disqus_show_comment_count: true
+duoshuo_short_name: railschina
+duoshuo_show_comment_count: true
 
 # Google Analytics
 google_analytics_tracking_id:

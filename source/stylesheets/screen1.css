@@ -222,7 +222,7 @@ body {background: url("../images/main-bg.jpg") repeat scroll left top transparen
 }
 .nav ul li a { word-wrap:break-word;font-size:.8em;font-weight:normal;border-top: 1px solid #fff;border-bottom: 1px solid #ddd;}
 .nav ul li a:hover { border-top-color:#aaa;}
-.nav li a {padding:16px 10px 13px 10px; }
+.nav li a {padding:16px 10px 13px 14px; }
 .nav li:hover ul,
 .nav li.nav-hover ul { background: #eee; }
 

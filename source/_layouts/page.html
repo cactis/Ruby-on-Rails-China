@@ -23,13 +23,14 @@ layout: default
       {% endunless %}
     </footer>
   {% endunless %}
+  {% if site.duoshuo_short_name and page.comments == true %}
+    <section>
+      <div id="disqus_thread" aria-live="polite">{% include post/disqus_thread.html %}</div>
+      {% include disqus.html %}
+    </section>
+  {% endif %}
 </article>
-{% if site.disqus_short_name and page.comments == true %}
-  <section>
-    <h1>Comments</h1>
-    <div id="disqus_thread" aria-live="polite">{% include post/disqus_thread.html %}</div>
-  </section>
-{% endif %}
+
 </div>
 {% unless page.sidebar == false %}
 <aside class="sidebar">

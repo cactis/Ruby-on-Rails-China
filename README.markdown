@@ -31,7 +31,11 @@
 ### Ruby on Rails 中文生态圈
 现在，有许多热心的人们在协助 Ruby on Rails 在中国的发展，你可以很轻易的找到他们。
 如果对 Ruby on Rails 感兴趣
+
 你首先应该加入[Ruby China](http://ruby-china.org).
+
 你常常会需要查询[Rails Guides China](http://guides.railschina.org).
-你应该订阅一份中文版的 Rails 播客,[Rails Caster China]()
-份经常更新的 [Ruby on Rails China](http://railschina.org).
+
+你应该订阅一份中文版的 Rails 播客,[Rails Caster China](http://railscasts-china.com/)
+
+还有一份经常更新的 [Ruby on Rails China](http://railschina.org).
