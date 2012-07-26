@@ -37,10 +37,9 @@ pre[class^='sh_'], .sh_sourcecode {
 
 .article {
   width:580px;
-  font: 13px/162% "Microsoft YaHei",Helvetica,"lucida sans","tahome",Arial,宋体;
+  font: 14px/1.5 "Helvetica Neue",arial,sans-serif;
   letter-spacing: 0.5px;
   padding-bottom: 25px;
-  padding-top:25px;
   background: url("../images/divider-tile.png") repeat-x scroll left bottom transparent;
 }
 .article h1 { font-size: 27px; padding: 5px 0px;letter-spacing: -1px; font-weight:inherit; }
@@ -49,7 +48,7 @@ pre[class^='sh_'], .sh_sourcecode {
 .article h4 { font-size: 14px; padding: 5px 0px; font-weight:inherit;}
 .article h5 { font-size: 10px;  padding: 5px 0px; font-weight:inherit;}
 .article h6 { font-size: 7px;  font-weight:inherit;}
-
+.entry-content img{ max-width: 500px;}
 #fixed-line {padding-bottom:100px; }
 .sidebar {     left: 50%;
     margin-left: 176px;
@@ -183,7 +182,7 @@ html, body, div, span, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, ab
 .menu-back {padding-bottom:25px;border-top:4px solid #e0e1e5; position:relative;}
 .menu-menu-container {position:absolute;}
 body {background: url("../images/main-bg.jpg") repeat scroll left top transparent;}
-
+#main {min-height:1000px;}
 .nav {line-height:1; width: 100%; margin-bottom:0; }
 .nav, .nav * { list-style: none; margin-left: 0; }
 .nav li { float: left; padding: 0; position: relative; border-right:1px solid #fff;border-left:1px solid #bbb;}
@@ -324,11 +323,10 @@ del { text-decoration: line-through; }
 ins { text-decoration: underline; }
 
 code, pre {  line-height: 15px; }
-var, kbd, samp, code, pre { font:600 12px/1.4 Consolas, "Andale Mono", Courier, "Courier New", monospace; }
 kbd { font-weight: bold; }
 samp, var { font-style: italic; }
-pre {  padding: 10px; border:2px dashed #E1E1E1; color:#333344;margin:10px 0px; background:#FAFAFA; overflow:auto; }
-
+pre {  padding: 10px; border:2px dashed #E1E1E1; color:#333344;margin:10px 0px; background:#FAFAFA; overflow:auto; font-family: monospace;}
+code{font-family:Monaco, Consolas, 'Lucida Console', monospace}
 /* Lists: (ul, ol, dl) */
 ul, ol, dl { margin-left: 15px; }
 .nav { margin-left: 0px; }
