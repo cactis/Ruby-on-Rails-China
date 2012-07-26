@@ -1,11 +1,16 @@
 .bundle
 .DS_Store
 .sass-cache
+.themes
 .gist-cache
 .pygments-cache
+.rvmrc
+.rbenv-version
+.powrc
+.slugignore
 _deploy
 public
-sass.old
+sass
 source/_stash
 source/stylesheets/screen.css
 vendor
