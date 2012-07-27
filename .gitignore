@@ -8,6 +8,8 @@
 .rbenv-version
 .powrc
 .slugignore
+Capfile
+./config/
 _deploy
 public
 sass
