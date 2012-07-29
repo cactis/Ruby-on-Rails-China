@@ -5,9 +5,12 @@
   <div class="header" role="banner">{% include header.html %}</div>
   <nav role="navigation">{% include navigation.html %}</nav>
   <div id="main">
-  <div class="container">
-      {{ content | expand_urls: root_url }}
+    <div class="container">
+        {{ content | expand_urls: root_url }}
     </div>
+  </div>
+  <div style="clear:both;">
+  
   </div>
   <footer role="contentinfo">{% include footer.html %}</footer>
   {% include after_footer.html %}

@@ -1,6 +1,7 @@
 * {margin:0;padding:0;}
 .container { width: 960px; margin: 20px auto 0px; }
 .content {
+    width: 600px;
     padding: 35px 20px 0 5px; 
     background: url("../images/divider.png") no-repeat scroll 40% top transparent;
 }
@@ -36,7 +37,7 @@ pre[class^='sh_'], .sh_sourcecode {
 
 
 .article {
-  width:580px;
+  width:600px;
   font: 14px/1.5 "Helvetica Neue",arial,sans-serif;
   letter-spacing: 0.5px;
   padding-bottom: 25px;
@@ -50,11 +51,7 @@ pre[class^='sh_'], .sh_sourcecode {
 .article h6 { font-size: 7px;  font-weight:inherit;}
 .entry-content img{ max-width: 500px;}
 #fixed-line {padding-bottom:100px; }
-.sidebar {     left: 50%;
-    margin-left: 176px;
-    position: absolute;
-    top: 438px;
-    width: 300px;}
+.sidebar { float:right; width: 300px;}
 #related-post {
  left:50%;
  margin-left:176px;
@@ -169,7 +166,6 @@ filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr
     clear: both;
     margin: 15px 0;
     padding: 5px;
-    width: 580px;
     position: relative;
 }
 .entry-meta {
@@ -287,7 +283,6 @@ h6 { font-size: 14px; line-height: 18px; }
 
 
 /* Footer */
-
 .footer-top {background:url('../images/footer-top-shadow.png') top center no-repeat;height:26px;position:absolute;top:0px;bottom:0;left:0;right:0;}
 .footer {position:relative;color:#000; border-top:1px solid #000;background-image:url('../images/header-footer.jpg'); padding:42px 0;}
 .footer small {font-weight:bold;}
@@ -414,7 +409,7 @@ li.block h4 {float:right;position:absolute;left:90px;top:-5px;}
     border-width: 1px;
     box-shadow: 0 1px 0 rgba(255, 255, 255, 0.3) inset, 0 0 2px rgba(255, 255, 255, 0.3) inset, 0 0 10px rgba(0, 0, 0, 0.1) inset, 0 1px 2px rgba(0, 0, 0, 0.1);
     font-size: 15px;
-    margin: 30px 0 35px;
+    margin: 0px 0px 35px;
     padding: 10px 15px 21px;
     position: relative;
   }
@@ -436,7 +431,9 @@ filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr
     text-shadow: 0 1px 0 #000000;
     top: -1px;
 }
-
+.section {
+    position:relative;
+}
 .section-title-inner {
     color: #FFFFFF;
     display: block;

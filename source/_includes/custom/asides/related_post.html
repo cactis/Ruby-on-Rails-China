@@ -1,0 +1,16 @@
+
+<div class="section">
+  <div class="section-content">
+    <div class="section-title">
+      <div class="section-title-background"> </div>
+      <h3 class="section-title-inner">相关文章</h3>
+    </div>
+    <ul class="posts">
+        {% for post in site.related_posts limit:5 %}
+        <li class="related">
+            <a href="{{ root_url }}{{ post.url }}">{{ post.title }}</a>
+        </li>
+        {% endfor %}
+    </ul>
+   </div>
+</div>

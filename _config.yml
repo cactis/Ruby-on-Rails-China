@@ -30,7 +30,7 @@ category_dir: blog/categories
 markdown: rdiscount
 pygments: false # default python pygments have been replaced by pygments.rb
 
-paginate: 10          # Posts per page on the blog index
+paginate: 5          # Posts per page on the blog index
 pagination_dir: blog  # Directory base for pagination URLs eg. /blog/page/2/
 recent_posts: 5       # Posts in the sidebar Recent Posts section
 excerpt_link: "READ MORE >>"  # "Continue reading" link text at the bottom of excerpted articles
@@ -43,8 +43,8 @@ lsi: true
 
 # Each layout uses the default asides, but they can have thei Casterr own asides instead. Simply uncomment the lines below
 # and add an array with the asides you want to use.
-blog_index_asides: [custom/asides/about.html,custom/asides/follow.html,custom/asides/jobs.html,asides/recent_posts.html,asides/delicious.html]
-post_asides: [custom/asides/recent_comment.html,custom/asides/jobs.html,asides/recent_posts.html,asides/delicious.html]
+blog_index_asides: [custom/asides/about.html,custom/asides/follow.html,custom/asides/jobs.html,custom/asides/recent_comment.html,asides/recent_posts.html,asides/delicious.html]
+post_asides: [custom/asides/related_post.html,custom/asides/jobs.html,asides/recent_posts.html,asides/delicious.html]
 # page_asides:
 
 # ----------------------- #
