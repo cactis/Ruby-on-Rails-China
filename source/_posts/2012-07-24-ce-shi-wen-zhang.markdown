@@ -4,7 +4,7 @@ title: "测试文章"
 date: 2012-07-24 23:29
 comments: true
 categories: work
-tags: ["this","is","just","a","post"]
+tags: ['test','firstpost']
 ---
 ### 测试文章
 #### 标题测试
@@ -72,7 +72,7 @@ class SHJS < Liquid::Block
 1. 有序列表1
 2. 有序列表2
 3. 有序列表3
-
+<!--more--> 
 #### 强调
 *single asterisks*
 

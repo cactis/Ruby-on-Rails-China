@@ -5,7 +5,7 @@ date: 2012-07-28 23:37
 comments: true
 author: xdite
 categories: development
-tag: ['gem','rails','bundler']
+tags: ['gem','rails','bundler']
 ---
 这篇文章转载自[xdite的blog](http://blog.xdite.net/posts/2012/01/04/how-to-pack-a-gem/)
 
@@ -21,7 +21,7 @@ RubyGems 是 Ruby 的 Package 管理系统。它的作用类似 Linux 系统下�
 最早以前大家都是手工製造 ( RailsCast #135 )，后来 Jeweler( RailsCast #183 ) 被发明出来，让打包变得非常容易。
 而到最后，更演变成了 Bundler 内建 ( Rails 245 )。
 包装一个 Gem 变得越来越容易。
-
+<!--more--> 
 # Gem 的基本结构
 
 若以 Bundler 内建的指令 bundle gem GEM_NAME 自动生出来的档桉。其实 Gem 的结构也相当简单。

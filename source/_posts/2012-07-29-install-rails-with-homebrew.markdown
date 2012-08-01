@@ -5,7 +5,7 @@ date: 2012-07-29 00:48
 author: tassandar
 comments: true
 categories: development
-tag: ['homebrew','rails','mac','osx','rvm']
+tags: ['homebrew','rails','mac','osx','rvm']
 ---
 这次入手了一个 Macbook Air ，系统是 OSX ，在安装 Ruby on Rails 环境的时候还是遇到了一些问题。做个记录。
 
@@ -17,9 +17,9 @@ Xcode 在4.3以后的版本不再自带编译环境也就是 gcc 之类的。但
 
 1. 把Xcode降级到4.2.
 2. 安装Xcode，接着在打开Xcode，进入界面之后在 __属性__ 界面下的download里面加入_Command Line Tool_。如图。之后就有编译工具了。
-![xcode commandline](http://railschina.org/images/xcode-screenshot.png)
+![xcode commandline](http://www.railschina.org/images/xcode-screenshot.png)
 3. 比较推荐的方法，Xcode 全套装备弄完要3个GB左右，如果你觉得IOS什么的和你没关系，你直接下载使用[osx-gcc-installer](https://github.com/kennethreitz/osx-gcc-installer)。这是一个纯净的OSX下的编译开发环境（270mb）。
-
+<!--more--> 
 # Homebrew
 
 [Homebrew](mxcl.github.com/homebrew/) 是一个用 Ruby 语言写的 OSX 上的包管理程序，现在已经在开发者中几乎成为了标配。

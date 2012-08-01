@@ -5,7 +5,7 @@ date: 2012-07-29 11:43
 author: Tassandar
 comments: true
 categories: job
-tag: ['work','招聘']
+tags: ['招聘','job']
 ---
 转载自[ruby-china](http://ruby-china.org/topics/3285).
 
@@ -22,8 +22,7 @@ tag: ['work','招聘']
 薪资待遇：福利（培训+午餐补助+带薪年假+五险一金+团队活动），
 
 待遇（工资+项目奖金+年终奖+股权激励计划）
-
-ruby开发工程师
+# ruby开发工程师
 
 1. 熟悉使用*nix系统
 
