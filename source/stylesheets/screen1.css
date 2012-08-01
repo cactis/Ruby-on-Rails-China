@@ -65,9 +65,9 @@ pre[class^='sh_'], .sh_sourcecode {
   margin-top: 20px;
   clear: both; 
 }
-.alignleft { float: left; margin: 5px 20px 10px 0; }
-.alignright { float: right; margin: 5px 0 10px 20px; }
-.aligncenter { margin: 5px auto 10px auto; display: block; clear: both; }
+.left { float: left; margin: 5px 20px 10px 0; }
+.right { float: right; margin: 5px 0 10px 20px; }
+.center { margin: 5px auto 10px auto; display: block; clear: both; }
 
 
 
