@@ -33,6 +33,7 @@ author: windy
 别急，`gf`还有更多用：
 
 下面 < 是光标指向的区域后，按下gf跳转的方向( * 是指光标位置，<是将跳转的文件，强大吧。。。）
+
 {%sh [:sh] %}
     Pos*t.first
     < app/models/post.rb ~
@@ -64,6 +65,8 @@ author: windy
      <%= link_to "New", new_comme*nt_path %>
     < app/controllers/comments_controller.rb (jumps to def new) ~
 {%endsh%}
+
+<!--more--> 
 
 还有还有，虽然简化到极速了，但有时候还是要使用上面的Rxx系列跳转指令，还有更方便的吗，比如模糊查。。（source Insight这货这个能力很强,知道吧）
 当然也有，看：
