@@ -88,14 +88,20 @@ zsh的话就在 ~/.zshrc 中加入
 这里有一份更新非常及时的 [Rails安装指南](http://railsapps.github.com/installing-rails.html)
 
 打完收工，检查下自己的成果
+
     rvm -v
+
     rvm 1.14.5 (master) by Wayne E. Seguin <wayneeseguin@gmail.com>, Michal Papis <mpapis@gmail.com> [https://rvm.io/]
+
     $ ruby -v
     ruby 1.9.3p194 (2012-04-20 revision 35410) [x86_64-darwin11.3.0]
+
     $ Rails -v
     Rails 3.2.6
+
     $ mysql --version
     mysql  Ver 14.14 Distrib 5.5.25a, for osx10.7 (i386) using readline 5.1
+
 然后用
 `$ brew doctor`
 检查下包管理上有没有什么缺陷。按照提示修复就好了。
