@@ -82,6 +82,8 @@ end
 {% endsh %}
 
 
+<!--more--> 
+
 可以看到，当我们在 Action View 中调用 Rails 提供的 `form_for` 方法时，Rails 先是分辨和保存了一下我们传入的参数，对输出中依次传入了 `form_tag` 的返回内容和 `field_for`  的返回内容。
 
 
@@ -256,11 +258,11 @@ end
 
 
 {%sh [:html] %}
-    <dt>
+<dt>
     <label for="post_content" class="required">
       Content
     </label>
-    </dt> 
+</dt> 
 {% endsh %}
 
 懒惰的程序员当然不会为此妥协。我们需要一个自定义的表单和函数来满足需求。
@@ -339,12 +341,28 @@ ActionView::Helpers::FormHelper.send(:include, CityHelper::FormHelper)
 
 （回头一想觉得这种方法挺丑陋的，请教下有没有什么优雅的办法能够解决？）
 
-参考阅读：
+### 参考阅读：
 
-[advanced rails studio: custom form builder](http://onrails.org/2008/06/13/advanced-rails-studio-custom-form-builder)
-[Form Builders in Rails](http://code.alexreisner.com/articles/form-builders-in-rails.html)
-[Very Custom Form Builders in Rails](http://www.likeawritingdesk.com/posts/very-custom-form-builders-in-rails)
-[Extending form for in Rails 3 with your own methods](http://blog.lrdesign.com/2011/04/extending-form_for-in-rails-3-with-your-own-methods/)
-[Rails source code](https://github.com/rails/rails)
-[Rails手册中文](http://guides.railschina.org/form_helpers.html)
+* [advanced rails studio: custom form builder](http://onrails.org/2008/06/13/advanced-rails-studio-custom-form-builder)
+
+
+
+* [Form Builders in Rails](http://code.alexreisner.com/articles/form-builders-in-rails.html)
+
+
+
+* [Very Custom Form Builders in Rails](http://www.likeawritingdesk.com/posts/very-custom-form-builders-in-rails)
+
+
+
+* [Extending form for in Rails 3 with your own methods](http://blog.lrdesign.com/2011/04/extending-form_for-in-rails-3-with-your-own-methods/)
+
+
+
+* [Rails source code](https://github.com/rails/rails)
+
+
+
+* [Rails手册中文](http://guides.railschina.org/form_helpers.html)
+
 
