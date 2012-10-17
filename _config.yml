@@ -91,3 +91,5 @@ google_analytics_tracking_id: UA-27906756-2
 
 # Facebook Like
 facebook_like: false
+
+web_crawler_sites: ['http://ruby-china.org/topics/']

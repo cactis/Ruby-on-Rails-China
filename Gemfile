@@ -14,6 +14,9 @@ group :development do
   gem 'stringex', '~> 1.4.0'
   gem 'capistrano'
   gem 'liquid', '~> 2.3.0'
+  gem 'nokogiri'
+  gem 'mechanize'
+  gem 'pandoc-ruby'
 end
 
 gem 'sinatra', '~> 1.3.2'
