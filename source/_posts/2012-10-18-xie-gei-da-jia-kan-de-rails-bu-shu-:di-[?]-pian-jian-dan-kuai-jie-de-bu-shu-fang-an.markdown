@@ -3,7 +3,7 @@ layout: post
 title: "写给大家看的 Rails 部署：第一篇 简单快捷的部署方案"
 date: 2012-10-18 11:44
 comments: true
-categories: Ruby-China
+categories: RubyChina
 author: Rei
 ---
 转载自[Ruby-China](http://ruby-china.org/topics/4747)

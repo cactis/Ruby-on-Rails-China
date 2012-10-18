@@ -3,7 +3,7 @@ layout: post
 title: "我觉得 《501程序员宣言》 挺有意思"
 date: 2012-10-17 22:45
 comments: true
-categories: Ruby-China
+categories: RubyChina
 author: ery
 ---
 转载自[Ruby-China](http://ruby-china.org/topics/3209)

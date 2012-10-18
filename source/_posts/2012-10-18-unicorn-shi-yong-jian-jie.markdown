@@ -3,7 +3,7 @@ layout: post
 title: "unicorn 使用简介"
 date: 2012-10-18 11:43
 comments: true
-categories: Ruby-China
+categories: RubyChina
 author: luoping0425
 ---
 转载自[Ruby-China](http://ruby-china.org/topics/4709)

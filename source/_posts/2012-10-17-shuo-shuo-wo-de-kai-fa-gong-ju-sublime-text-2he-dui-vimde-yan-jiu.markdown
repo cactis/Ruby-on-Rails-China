@@ -3,7 +3,7 @@ layout: post
 title: "说说我的开发工具Sublime Text 2和对Vim的研究"
 date: 2012-10-17 22:56
 comments: true
-categories: Ruby-China
+categories: RubyChina
 author: ery
 ---
 转载自[Ruby-China](http://ruby-china.org/topics/3822)

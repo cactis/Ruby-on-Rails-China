@@ -3,7 +3,7 @@ layout: post
 title: "写给大家看的 Rails 部署：第二篇 Linux 用户权限"
 date: 2012-10-18 11:46
 comments: true
-categories: Ruby-China
+categories: RubyChina
 author: Rei
 ---
 转载自[Ruby-China](http://ruby-china.org/topics/5169)

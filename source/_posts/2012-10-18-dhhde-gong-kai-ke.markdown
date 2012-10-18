@@ -3,7 +3,7 @@ layout: post
 title: "DHH的公开课"
 date: 2012-10-18 11:50
 comments: true
-categories: Ruby-China
+categories: RubyChina
 author: cxh116
 ---
 转载自[Ruby-China](http://ruby-china.org/topics/5906)

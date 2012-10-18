@@ -3,7 +3,7 @@ layout: post
 title: "使用 Vim 开发 Ruby on Rails（2012-03-19版）"
 date: 2012-10-17 22:27
 comments: true
-categories: Ruby-China
+categories: RubyChina
 author: ruchee
 ---
 转载自[Ruby-China](http://ruby-china.org/topics/2047)

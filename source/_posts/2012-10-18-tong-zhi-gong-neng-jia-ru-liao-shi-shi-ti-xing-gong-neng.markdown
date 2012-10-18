@@ -3,7 +3,7 @@ layout: post
 title: "通知功能加入了实时提醒功能"
 date: 2012-10-18 11:46
 comments: true
-categories: Ruby-China
+categories: RubyChina
 author: huacnlee
 ---
 转载自[Ruby-China](http://ruby-china.org/topics/5250)

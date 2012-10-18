@@ -3,7 +3,7 @@ layout: post
 title: "SASS 和 Compass 指南"
 date: 2012-10-18 11:41
 comments: true
-categories: Ruby-China
+categories: RubyChina
 author: lilu
 ---
 转载自[Ruby-China](http://ruby-china.org/topics/4396)

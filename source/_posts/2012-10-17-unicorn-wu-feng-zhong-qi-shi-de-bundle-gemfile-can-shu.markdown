@@ -3,7 +3,7 @@ layout: post
 title: "Unicorn 无缝重启时的 BUNDLE_GEMFILE 参数"
 date: 2012-10-17 22:45
 comments: true
-categories: Ruby-China
+categories: RubyChina
 author: saberma
 ---
 转载自[Ruby-China](http://ruby-china.org/topics/3190)

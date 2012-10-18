@@ -3,7 +3,7 @@ layout: post
 title: "鸭眼网的 git pull 使用法"
 date: 2012-10-17 21:51
 comments: true
-categories: Ruby-China
+categories: RubyChina
 author: lgn21st
 ---
 转载自[Ruby-China](http://ruby-china.org/topics/306)

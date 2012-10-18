@@ -3,7 +3,7 @@ layout: post
 title: "社会网络分析入门"
 date: 2012-10-18 11:48
 comments: true
-categories: Ruby-China
+categories: RubyChina
 author: ouyang
 ---
 转载自[Ruby-China](http://ruby-china.org/topics/5646)

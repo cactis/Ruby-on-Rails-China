@@ -3,7 +3,7 @@ layout: post
 title: "Rails.vim 高效使用指南"
 date: 2012-10-18 11:42
 comments: true
-categories: Ruby-China
+categories: RubyChina
 author: lyfi2003
 ---
 转载自[Ruby-China](http://ruby-china.org/topics/4478)

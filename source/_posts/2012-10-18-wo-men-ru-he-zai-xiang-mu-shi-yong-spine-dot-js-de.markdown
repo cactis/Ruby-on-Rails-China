@@ -3,7 +3,7 @@ layout: post
 title: "我们如何在项目使用 Spine.JS 的."
 date: 2012-10-18 11:45
 comments: true
-categories: Ruby-China
+categories: RubyChina
 author: poshboytl
 ---
 转载自[Ruby-China](http://ruby-china.org/topics/5055)

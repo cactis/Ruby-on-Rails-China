@@ -3,7 +3,7 @@ layout: post
 title: "CoffeeScript 详解"
 date: 2012-10-18 11:44
 comments: true
-categories: Ruby-China
+categories: RubyChina
 author: lilu
 ---
 转载自[Ruby-China](http://ruby-china.org/topics/4789)

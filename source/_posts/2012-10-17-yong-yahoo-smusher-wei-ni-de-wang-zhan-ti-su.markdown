@@ -3,7 +3,7 @@ layout: post
 title: "用 Yahoo Smusher 为你的网站提速"
 date: 2012-10-17 21:49
 comments: true
-categories: Ruby-China
+categories: RubyChina
 author: huacnlee
 ---
 转载自[Ruby-China](http://ruby-china.org/topics/136)

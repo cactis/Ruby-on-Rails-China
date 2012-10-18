@@ -3,7 +3,7 @@ layout: post
 title: "[吐血之作] 你可能错过的 Rails 技巧"
 date: 2012-10-18 11:46
 comments: true
-categories: Ruby-China
+categories: RubyChina
 author: diudiutang
 ---
 转载自[Ruby-China](http://ruby-china.org/topics/5289)

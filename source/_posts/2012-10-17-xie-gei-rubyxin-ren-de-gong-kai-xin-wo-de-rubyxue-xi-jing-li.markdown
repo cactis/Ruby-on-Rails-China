@@ -3,7 +3,7 @@ layout: post
 title: "写给Ruby新人的公开信 (我的Ruby学习经历)"
 date: 2012-10-17 22:26
 comments: true
-categories: Ruby-China
+categories: RubyChina
 author: zw963
 ---
 转载自[Ruby-China](http://ruby-china.org/topics/2003)

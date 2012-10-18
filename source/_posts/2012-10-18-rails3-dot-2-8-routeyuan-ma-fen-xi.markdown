@@ -3,7 +3,7 @@ layout: post
 title: "Rails3.2.8 Route源码分析"
 date: 2012-10-18 11:49
 comments: true
-categories: Ruby-China
+categories: RubyChina
 author: lyfi2003
 ---
 转载自[Ruby-China](http://ruby-china.org/topics/5895)

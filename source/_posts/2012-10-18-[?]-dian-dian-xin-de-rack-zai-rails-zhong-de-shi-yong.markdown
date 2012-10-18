@@ -3,7 +3,7 @@ layout: post
 title: "一点点心得: Rack 在 Rails 中的使用"
 date: 2012-10-18 11:44
 comments: true
-categories: Ruby-China
+categories: RubyChina
 author: zhlwish
 ---
 转载自[Ruby-China](http://ruby-china.org/topics/4840)

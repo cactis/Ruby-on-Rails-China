@@ -3,7 +3,7 @@ layout: post
 title: "Rails 开发特配 vimfiles 文件"
 date: 2012-10-18 11:39
 comments: true
-categories: Ruby-China
+categories: RubyChina
 author: wongyouth
 ---
 转载自[Ruby-China](http://ruby-china.org/topics/4125)

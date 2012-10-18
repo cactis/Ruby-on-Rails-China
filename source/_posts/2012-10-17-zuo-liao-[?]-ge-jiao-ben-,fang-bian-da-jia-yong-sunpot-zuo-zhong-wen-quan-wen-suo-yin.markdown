@@ -3,7 +3,7 @@ layout: post
 title: "做了一个脚本，方便大家用 Sunpot 做中文全文索引"
 date: 2012-10-17 21:51
 comments: true
-categories: Ruby-China
+categories: RubyChina
 author: quakewang
 ---
 转载自[Ruby-China](http://ruby-china.org/topics/305)

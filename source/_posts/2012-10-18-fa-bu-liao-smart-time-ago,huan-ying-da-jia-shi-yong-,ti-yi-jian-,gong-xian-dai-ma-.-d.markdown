@@ -3,7 +3,7 @@ layout: post
 title: "发布了smart-time-ago，欢迎大家试用，提意见，贡献代码。:D"
 date: 2012-10-18 11:41
 comments: true
-categories: Ruby-China
+categories: RubyChina
 author: poshboytl
 ---
 转载自[Ruby-China](http://ruby-china.org/topics/4437)

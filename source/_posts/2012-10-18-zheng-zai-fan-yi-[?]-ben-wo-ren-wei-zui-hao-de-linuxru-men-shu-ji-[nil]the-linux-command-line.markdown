@@ -3,7 +3,7 @@ layout: post
 title: "正在翻译一本我认为最好的Linux入门书籍－The Linux Command Line"
 date: 2012-10-18 11:42
 comments: true
-categories: Ruby-China
+categories: RubyChina
 author: billie66
 ---
 转载自[Ruby-China](http://ruby-china.org/topics/4519)

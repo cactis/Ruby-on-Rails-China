@@ -3,7 +3,7 @@ layout: post
 title: "深入Rails3: ActiveSupport::Concern"
 date: 2012-10-17 22:48
 comments: true
-categories: Ruby-China
+categories: RubyChina
 author: hujoy
 ---
 转载自[Ruby-China](http://ruby-china.org/topics/3386)

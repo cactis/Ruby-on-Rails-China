@@ -3,7 +3,7 @@ layout: post
 title: "ShopQi 专贴(任何问题或疑问请发到这里)"
 date: 2012-10-17 22:29
 comments: true
-categories: Ruby-China
+categories: RubyChina
 author: saberma
 ---
 转载自[Ruby-China](http://ruby-china.org/topics/2135)

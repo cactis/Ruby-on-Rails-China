@@ -3,7 +3,7 @@ layout: post
 title: "選擇 oh-my-zsh 讓 Terminal 更好用"
 date: 2012-10-17 21:56
 comments: true
-categories: Ruby-China
+categories: RubyChina
 author: Victor
 ---
 转载自[Ruby-China](http://ruby-china.org/topics/734)
@@ -66,7 +66,7 @@ author: Victor
  回到命令行下面輸入 mate \~/.oh-my-zsh\
  在 themes 目錄下新建一個 victor.zsh-theme 好啦，現在需要什麼功能就開抄吧
 
-    # Grab the current date (%D) and time (%T) wrapped in {}: {%D %T}
+    # Grab the current date (%D) and time (%T) wrapped in {}:
     DALLAS_CURRENT_TIME_="%{$fg[white]%}[%{$fg[yellow]%}%T%{$fg[white]%}]%{$reset_color%}"
     # Grab the current version of ruby in use (via RVM): [ruby-1.8.7]
     DALLAS_CURRENT_RUBY_="%{$fg[white]%}[%{$fg[magenta]%}\$(~/.rvm/bin/rvm-prompt i v g)%{$fg[white]%}]%{$reset_color%}"

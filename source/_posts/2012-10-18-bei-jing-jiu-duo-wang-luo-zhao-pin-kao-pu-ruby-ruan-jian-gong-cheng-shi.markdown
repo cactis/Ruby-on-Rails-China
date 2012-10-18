@@ -3,7 +3,7 @@ layout: post
 title: "[北京] 久朵网络 招聘靠谱 Ruby 软件工程师"
 date: 2012-10-18 11:46
 comments: true
-categories: Ruby-China
+categories: RubyChina
 author: liuzihua
 ---
 转载自[Ruby-China](http://ruby-china.org/topics/5132)

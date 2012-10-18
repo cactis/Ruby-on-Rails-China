@@ -3,7 +3,7 @@ layout: post
 title: "Cancan 實作角色權限設計的最佳實踐"
 date: 2012-10-18 11:43
 comments: true
-categories: Ruby-China
+categories: RubyChina
 author: xdite
 ---
 转载自[Ruby-China](http://ruby-china.org/topics/4723)

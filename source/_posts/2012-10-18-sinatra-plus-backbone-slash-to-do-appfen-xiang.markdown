@@ -3,7 +3,7 @@ layout: post
 title: "Sinatra+Backbone/ To-do App分享"
 date: 2012-10-18 11:40
 comments: true
-categories: Ruby-China
+categories: RubyChina
 author: kenshin716
 ---
 转载自[Ruby-China](http://ruby-china.org/topics/4301)

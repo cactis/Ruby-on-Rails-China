@@ -3,7 +3,7 @@ layout: post
 title: "[分享] 学习Rails的过程中遇到的一些陷阱!! 新人一定进来看看!!"
 date: 2012-10-18 11:42
 comments: true
-categories: Ruby-China
+categories: RubyChina
 author: zw963
 ---
 转载自[Ruby-China](http://ruby-china.org/topics/4511)

@@ -3,7 +3,7 @@ layout: post
 title: "second level cache 简介"
 date: 2012-10-18 11:48
 comments: true
-categories: Ruby-China
+categories: RubyChina
 author: hooopo
 ---
 转载自[Ruby-China](http://ruby-china.org/topics/5535)

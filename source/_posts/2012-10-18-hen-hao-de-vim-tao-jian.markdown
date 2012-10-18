@@ -3,7 +3,7 @@ layout: post
 title: "很好的 vim 套件"
 date: 2012-10-18 11:42
 comments: true
-categories: Ruby-China
+categories: RubyChina
 author: lidashuang
 ---
 转载自[Ruby-China](http://ruby-china.org/topics/4624)

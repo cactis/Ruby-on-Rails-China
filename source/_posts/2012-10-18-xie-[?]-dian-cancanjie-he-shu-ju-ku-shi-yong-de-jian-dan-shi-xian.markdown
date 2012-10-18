@@ -3,7 +3,7 @@ layout: post
 title: "写一点CanCan结合数据库使用的简单实现"
 date: 2012-10-18 11:50
 comments: true
-categories: Ruby-China
+categories: RubyChina
 author: beiersi
 ---
 转载自[Ruby-China](http://ruby-china.org/topics/5938)

@@ -3,7 +3,7 @@ layout: post
 title: "利用OCR解析，京东商品价格"
 date: 2012-10-18 11:51
 comments: true
-categories: Ruby-China
+categories: RubyChina
 author: mimosa
 ---
 转载自[Ruby-China](http://ruby-china.org/topics/6105)

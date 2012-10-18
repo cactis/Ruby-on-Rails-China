@@ -3,7 +3,7 @@ layout: post
 title: "用 Backup 和 Whenever 进行备份"
 date: 2012-10-18 11:43
 comments: true
-categories: Ruby-China
+categories: RubyChina
 author: Rei
 ---
 转载自[Ruby-China](http://ruby-china.org/topics/4710)

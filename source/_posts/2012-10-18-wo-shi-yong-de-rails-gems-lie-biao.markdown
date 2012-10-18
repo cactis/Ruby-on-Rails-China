@@ -3,7 +3,7 @@ layout: post
 title: "我使用的 Rails Gems 列表"
 date: 2012-10-18 11:46
 comments: true
-categories: Ruby-China
+categories: RubyChina
 author: lilu
 ---
 转载自[Ruby-China](http://ruby-china.org/topics/5205)
