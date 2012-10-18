@@ -1,3 +1,4 @@
+#coding: utf-8
 require 'nokogiri'
 require 'mechanize'
 require 'YAML'
@@ -7,31 +8,8 @@ require 'pandoc-ruby'
 
 
 module Jekyll
-  class WebDoc
-    def initialize(base,title,author,content,source)
-      filename = "#{Time.now.strftime('%Y-%m-%d')}-#{title.to_url}.markdown"
-      post = File.join(base, '_posts',filename)
-      if File.exist?(post)
-        abort("rake aborted! the post file have exist!") 
-      end
-      puts "Creating new post: #{filename}"
-      content.sub!("<div class=\"body entry-content\">",'')
-      content.sub!("</div>",'')
-      doc = PandocRuby.convert(content,:from => :html,:to => :markdown)
-      open(filename, 'w') do |post|
-        post.puts "---"
-        post.puts "layout: post"
-        post.puts "title: \"#{title.gsub(/&/,'&amp;')}\""
-        post.puts "date: #{Time.now.strftime('%Y-%m-%d %H:%M')}"
-        post.puts "comments: true"
-        post.puts "categories: "
-        post.puts "---"
-        post.puts content
-      end
-    end
-  end
   class WebCrawler
-    LIKES_BRAKE = 20 
+    LIKES_BRAKE = 10 
     MAX_ATTEMPTS = 10
     def initialize(site, base)
       @site = site
@@ -71,13 +49,21 @@ module Jekyll
           puts "start scratching NO.#{record} topic"
           page = agent.get(source)
           like = page.search("//div[@class='tools pull-right']").search(".//span").text
-          /(\d+)/ =~ @like
-          if ($1 && $1 >= LIKES_BRAKE)
-            puts "Topic #{record} satisfied condition,start generate post"
-            content = page.search("//div[@class='body entry-content'] ").to_html
-            author = page.search("//a[@data-author]").text
-            title = page.search(".//h1[@class='entry-title']").text
-            @article =  Webdoc.new(@base,title,author,content,source)
+          /(\d+)/ =~ like
+          if($1)
+            if ($1.to_i >= LIKES_BRAKE)
+              puts "Topic #{record} satisfied condition,start generate post"
+              content = page.search("//div[@class='body entry-content'] ").to_html
+              author = page.search("//a[@data-author]").text
+              title = page.search(".//h1[@class='entry-title']").text
+              content.sub!("<div class=\"body entry-content\">",'')
+              content.sub!("</div>",'')
+              generate_post(content,author,title,"Ruby-China",source)
+            else
+              puts "...only #{$1} likes,discarding..."
+            end
+          else
+            puts "...no one like it ,discarding..."
           end
           attempts = 0 
         end
@@ -102,6 +88,32 @@ module Jekyll
       end
       return record
     end
+    def generate_post(content,author,title,site_name,address)
+      filename = "#{Time.now.strftime('%Y-%m-%d')}-#{title.to_url}.markdown"
+      post = File.join(@base,'source', '_posts',filename)
+      if File.exist?(post)
+        puts("aborted! the post file have exist!") 
+      else
+        content = content
+        content.sub!("<div class=\"body entry-content\">",'')
+        content.sub!("</div>",'')
+        puts "Creating new post: #{filename}"
+        doc = PandocRuby.convert(content,:from => :html,:to => :markdown)
+        open(post, 'w') do |p|
+          p.puts "---"
+          p.puts "layout: post"
+          p.puts "title: \"#{title.gsub(/&/,'&amp;')}\""
+          p.puts "date: #{Time.now.strftime('%Y-%m-%d %H:%M')}"
+          p.puts "comments: true"
+          p.puts "categories: #{site_name}"
+          p.puts "author: #{author}"
+          p.puts "---"
+          p.puts "转载自[#{site_name}](#{address})"
+          p.puts doc
+        end
+      end
+    end
+
   end
 
   class Site
